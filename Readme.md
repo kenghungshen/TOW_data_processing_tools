@@ -1,4 +1,4 @@
-**Note: Using the tool requires installation of ezc3d package: https://github.com/pyomeca/ezc3d**
+**Note: Using the tool requires installation of [ezc3d package](https://github.com/pyomeca/ezc3d)**
 
 
 # File:
