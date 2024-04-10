@@ -1,7 +1,9 @@
+# A set of tools to process data collected for the Treadmill Oscillation Walking (TOW) project, including a script to compensate for the inertial force induced by accelerating an instrumented treadmill with visual quality check, a GUI to select and inspect EMG signal from MVIC trials for walking trial normalization, a pipeline to transform CoP collected from a moving instrumented treadmill to the Lab coordinate system where kinematics were represented in, and extract participant bodyweight from the static calibration trial.
+
 **Note: Using the tool requires installation of [ezc3d package](https://github.com/pyomeca/ezc3d)**
 
 
-# File:
+## File:
 1. **c3d EMG_filtering**: Get MVIC files and extract MVIC with manual selection, filter EMG from gait trials and normalize to MVIC
 
 	- quality check completed 4/5/2023, merged from folder EMG_filtering_test
@@ -30,7 +32,7 @@
 6. **Static_BW_validation**: using Fz from static trail to validate if BW is off. Visualize and display values and their differences.
 
 
-# How to use:
+## How to use:
 1. Copy all 5 files to each folder containing original .c3d files from Vicon. 
 2. Open "Data_processing_tool_runner" 
 3. Check the filename, filter parameter, and EMG sensor number
@@ -45,6 +47,6 @@
 9. Use EMGfiltered...c3d to create the final .cmz file
 
 
-# Note:
+## Note:
 4/6/2023: Decide to still compensate all six channels of force
 8/19/2023: some post-training session has no weight scale measurement, **added Static_BW_validation module** using Fz from static trail to validate if BW is off.
