@@ -1,4 +1,4 @@
-# A set of tools to process data collected for the Treadmill Oscillation Walking (TOW) project, including a script to compensate for the inertial force induced by accelerating an instrumented treadmill with visual quality check, a GUI to select and inspect EMG signal from MVIC trials for walking trial normalization, a pipeline to transform CoP collected from a moving instrumented treadmill to the Lab coordinate system where kinematics were represented in, and extract participant bodyweight from the static calibration trial.
+A set of tools to process data collected for the Treadmill Oscillation Walking (TOW) project, including a script to compensate for the inertial force induced by accelerating an instrumented treadmill with visual quality check, a GUI to select and inspect EMG signal from MVIC trials for walking trial normalization, a pipeline to transform CoP collected from a moving instrumented treadmill to the Lab coordinate system where kinematics were represented in, and extract participant bodyweight from the static calibration trial.
 
 **Note: Using the tool requires installation of [ezc3d package](https://github.com/pyomeca/ezc3d)**
 
